@@ -18,9 +18,9 @@ const player_2 = {
    },
 };
 
-function createPlayer(parClass, parPlayer) {
-   const arena = document.querySelector(".arenas");
+const arena = document.querySelector(".arenas");
 
+function createPlayer(parClass, parPlayer) {
    const divPlayer = document.createElement("div");
    divPlayer.classList.add(parClass);
 
